@@ -31,7 +31,7 @@ class TextControlState extends State<TextControl> {
       children: [
         Text('Weekdays!'),
         ElevatedButton(
-          child: Text('Change Text 1'),
+          child: Text('Change Day'),
           onPressed: changeText,
         ),
         TextWidget(days[weekdays])
